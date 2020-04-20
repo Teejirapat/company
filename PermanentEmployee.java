@@ -5,7 +5,6 @@ public class PermanentEmployee extends Employee{
 	private int salary;
 	private int realsalary;
 	private int socialSecurity;
-	private String attribute;
 	
 	public PermanentEmployee(String name,int age,String department,int performanceScore,int salary) {
 		setfullName(name);
@@ -25,9 +24,5 @@ public class PermanentEmployee extends Employee{
 	public int getsocialSecurity() {
 		
 		return socialSecurity;
-	}
-	
-	public String getAttribute() {
-		return  attribute;
-	}
+	}	
 }
