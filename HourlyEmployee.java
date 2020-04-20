@@ -40,4 +40,8 @@ public class HourlyEmployee extends Employee{
 	public int getMonthlyPayment() {		
 		return salary=workingSessionsPerMonth*shift*MIN_HOURLY_WAGE_RATE;
 	}
+	protected int getsocialSecurity() {
+		
+		return 0;
+	}
 }
