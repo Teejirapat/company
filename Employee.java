@@ -40,5 +40,5 @@ public int getperformanceScore() {
 	return performanceScore;
 }
    public abstract int getMonthlyPayment();
-	protected abstract int getsocialSecurity();
+	public abstract int getsocialSecurity();
 }
